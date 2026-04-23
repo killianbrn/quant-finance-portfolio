@@ -10,18 +10,18 @@ the standard expected at derivatives desks, hedge funds, and digital asset firms
 
 ## Structure
 
-quant-finance-portfolio/
-├── options_derivatives/
-│   ├── black_scholes.py          # Analytical BSM pricer + full Greeks
-│   ├── implied_volatility.py     # IV solver: Newton-Raphson + Brent
-│   ├── monte_carlo.py            # MC pricing: European, Asian, Barrier
-│   └── binomial_tree.py          # CRR lattice: European & American
-├── fixed_income/
-│   └── yield_curve.py            # Bootstrap + Nelson-Siegel curve fitting
-├── risk_management/
-│   ├── var_cvar.py               # VaR & CVaR: Historical, Parametric, MC
-│   └── backtesting.py            # Strategy backtester + performance metrics
-└── requirements.txt
+    quant-finance-portfolio/
+    ├── options_derivatives/
+    │   ├── black_scholes.py          # Analytical BSM pricer + full Greeks
+    │   ├── implied_volatility.py     # IV solver: Newton-Raphson + Brent
+    │   ├── monte_carlo.py            # MC pricing: European, Asian, Barrier
+    │   └── binomial_tree.py          # CRR lattice: European & American
+    ├── fixed_income/
+    │   └── yield_curve.py            # Bootstrap + Nelson-Siegel curve fitting
+    ├── risk_management/
+    │   ├── var_cvar.py               # VaR & CVaR: Historical, Parametric, MC
+    │   └── backtesting.py            # Strategy backtester + performance metrics
+    └── requirements.txt
 
 ---
 
